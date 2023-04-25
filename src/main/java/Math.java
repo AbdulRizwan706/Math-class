@@ -6,7 +6,7 @@ public class Math {
     //  which takes as input an integer parameter called radius.
     //   This function should return area of the circle as a double
     public static final double pi = 3.14;
-    static double getCircleArea(int radius){
+    public static double getCircleArea(int radius){
         return pi*radius*radius;
     }
 
